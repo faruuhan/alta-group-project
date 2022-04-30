@@ -1,0 +1,528 @@
+@import url("https://use.typekit.net/qbb8ieo.css");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins&family=Roboto&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* Utility */
+.btn-orange {
+  font-family: muli;
+  font-weight: 600;
+  border: 1px solid #f47522;
+  border-radius: 50px;
+  color: #f47522;
+}
+
+.btn-orange:hover {
+  font-family: muli;
+  font-weight: 600;
+  border: 1px solid #ffffff;
+  border-radius: 50px;
+  background: #f47522;
+  color: #ffffff;
+}
+
+.btn-orange-active {
+  background: #f47522;
+  color: #ffffff;
+}
+
+.title-section {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  gap: 14.5px;
+  font-weight: 700;
+  font-size: 45px;
+  color: #19345e;
+}
+
+.title-section::before,
+.title-section::after {
+  content: "";
+  display: block;
+  width: 35px;
+  height: 2px;
+  background: #f47522;
+}
+
+.sub-title {
+  font-family: muli;
+  font-weight: 600;
+  font-size: 17px;
+  color: #19345e;
+  text-align: center;
+}
+
+.section-header {
+  padding: 60px 0;
+}
+
+.link-none-decoration {
+  font-family: muli;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #19345e;
+}
+
+.link-none-decoration:hover {
+  color: #f47522;
+}
+
+.link-decoration {
+  color: #19345e;
+  font-family: "Poppins";
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.link-decoration:hover {
+  color: #f47522;
+}
+
+.bg-main {
+  background: url(../assets/img/ornament_batik.png);
+  background-repeat: no-repeat;
+  background-size: 300px;
+}
+
+.bg-main2 {
+  background: url(../assets/img/ornament_batik.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: 300px;
+}
+
+/* Navbar */
+.navbar .nav-link {
+  font-family: muli;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #19345e;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #f47522;
+}
+
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show > .nav-link {
+  color: #f47522;
+}
+
+/* Footer */
+.footer {
+  background-color: #19345e;
+  font-family: muli;
+  font-weight: 400;
+  font-size: 14px;
+  color: #ffffff;
+  height: 282px;
+  display: flex;
+  margin-top: 98px;
+}
+
+.footer .container .row .col-lg-3 {
+  margin-top: 35px;
+}
+
+/* jumbotron */
+.jumbotron {
+  background: #edf6ff;
+  height: 743px;
+}
+
+.img-jumbotron {
+  width: 350px;
+}
+
+.display1 {
+  font-family: muli;
+  font-size: 25px;
+  font-weight: 900;
+  color: #19345e;
+}
+
+.display2 {
+  font-family: "Roboto";
+  font-size: 45px;
+  font-weight: 600;
+  color: #19345e;
+}
+
+.jumbotron span {
+  color: #f47522;
+}
+
+.desc {
+  font-family: muli;
+  font-size: 17px;
+  font-weight: 600;
+  color: #19345e;
+}
+
+/* Info Panel */
+.info-panel {
+  background: #ffffff;
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 20px;
+}
+
+.rounded-panel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  float: left;
+  background-color: #f47522;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+}
+
+.img-panel {
+  width: 25px;
+}
+
+.info-panel h4 {
+  font-family: "Roboto";
+  font-weight: 600;
+  font-size: 16px;
+  color: #19345e;
+}
+
+.info-panel p {
+  font-family: muli;
+  font-weight: 400;
+  font-size: 14px;
+  color: #19345e;
+}
+
+/* About */
+
+.bg-about {
+  background: linear-gradient(90deg, rgba(25, 52, 94, 0.65) 0%, rgba(25, 52, 94, 0.65) 50%, rgba(25, 52, 94, 0.65) 100%), url(../assets/img/bg-people@2x.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 242px;
+}
+
+.bg-about h2 {
+  font-family: muli;
+  font-size: 35px;
+  font-weight: 600;
+  color: #ffffff;
+  text-align: center;
+}
+
+.bg-about p {
+  font-family: muli;
+  font-size: 16px;
+  color: #ffffff;
+  text-align: center;
+}
+
+/* Meet Our Team */
+
+.img-sm-team-shadow {
+  width: 225px;
+  height: 265px;
+  margin-left: 20px;
+  box-shadow: 0px 10px 10px #19345e8e;
+  position: relative;
+}
+
+.img-sm-team-noshadow {
+  width: 225px;
+  height: 265px;
+  margin-left: 20px;
+  position: relative;
+}
+
+.border-img-sm-navy {
+  border: 10px solid #19345e;
+  width: 225px;
+  height: 265px;
+  margin-top: -246px;
+  position: absolute;
+}
+
+.border-img-sm-orange {
+  border: 10px solid #f47522;
+  width: 225px;
+  height: 265px;
+  margin-top: -246px;
+  position: absolute;
+}
+
+.profile-team {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.name-personal-team {
+  font-family: "Roboto";
+  font-weight: 600;
+  font-size: 20px;
+  color: #f47522;
+  margin-top: 25px;
+}
+
+.job-desc {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 15px;
+  color: #19345e;
+}
+
+/* Latest Post */
+
+.card-post-body {
+  padding-top: 31px;
+}
+
+.date-latest-post {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 10px 0 15px 0;
+}
+
+.date-latest-post * {
+  color: #707070;
+  font-size: 14px;
+  font-family: "Poppins";
+  font-weight: 400;
+  margin: 0px;
+}
+
+.title-post {
+  font-family: "Roboto";
+  font-weight: 600;
+  font-size: 20px;
+  color: #19345e;
+}
+
+.text-post {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 14px;
+  color: #19345e;
+}
+
+/* Page Team */
+.job-title-lg {
+  font-family: muli;
+  font-size: 30px;
+  font-weight: 700;
+  color: #19345e;
+  margin-bottom: 30px;
+}
+
+.img-lg-team-noshadow {
+  width: 320px;
+  height: 399px;
+  margin-left: 25px;
+  position: relative;
+}
+
+.border-img-lg-orange {
+  border: 10px solid #f47522;
+  width: 320px;
+  height: 399px;
+  margin-top: -377px;
+  position: absolute;
+}
+
+.border-img-lg-navy {
+  border: 10px solid #19345e;
+  width: 320px;
+  height: 399px;
+  margin-top: -377px;
+  position: absolute;
+}
+
+.table-information-team {
+  font-family: muli;
+  font-size: 20px;
+  font-weight: 400;
+  color: #19345e;
+  margin-top: 5px;
+}
+
+.table-information-team td {
+  padding-bottom: 15px;
+}
+
+.title-career {
+  font-family: muli;
+  font-weight: 700;
+  font-size: 25px;
+  color: #19345e;
+  margin-bottom: 30px;
+}
+
+.list-career {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 14px;
+  color: #19345e;
+  margin-bottom: 20px;
+}
+
+.list-career * {
+  margin-bottom: 6px;
+}
+
+.border-top-bottom-dashed {
+  border-top: 1px dashed #aaaaaa;
+  border-bottom: 1px dashed #aaaaaa;
+}
+
+/* Page Blog */
+
+.title-blog {
+  font-family: muli;
+  font-weight: 800;
+  font-size: 50px;
+  color: #19345e;
+  margin-top: 30px;
+}
+
+.info-blog {
+  font-family: muli;
+  font-weight: 700;
+  font-size: 20px;
+  color: #19345e;
+  margin-top: 32px;
+}
+
+.main-blog {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 16px;
+  color: #19345e;
+  margin-top: 51px;
+}
+
+/* Page Contact */
+.list-contact {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 18px;
+  color: #19345e;
+  margin-bottom: 25px;
+}
+
+.sub-contact {
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: 400;
+  color: #19345e;
+}
+
+.form-label {
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: 400;
+  color: #19345e;
+}
+
+#send-message {
+  width: 205px;
+}
+
+.form-control {
+  font-family: "Poppins";
+  color: #19345e;
+}
+
+.form-control:focus {
+  border-color: #f47522;
+  color: #19345e;
+  box-shadow: none;
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  /* Navbar */
+  .navbar {
+    height: 90px;
+    box-shadow: 0px 3px 6px #c1c3c736;
+  }
+
+  #contact {
+    width: 130px;
+  }
+
+  /* Footer */
+  .footer {
+    align-items: center;
+    height: 141px;
+  }
+
+  .footer .container .row .col-lg-3 {
+    margin-top: 0;
+  }
+
+  /* jumbotron */
+  .jumbotron {
+    height: 743px;
+  }
+
+  .img-jumbotron {
+    width: 420px;
+  }
+
+  #more-about-team {
+    width: 230px;
+  }
+
+  /* Info Panel */
+  .info-panel {
+    width: 814px;
+    height: 110px;
+    border-radius: 100px;
+  }
+
+  .border-start-end {
+    border-left: 1px solid #dee2e6 !important;
+    border-right: 1px solid #dee2e6 !important;
+  }
+
+  /* About */
+
+  .bg-about {
+    height: 484px;
+  }
+
+  .bg-about h2 {
+    font-size: 55px;
+  }
+
+  .bg-about p {
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  /* Meet Our Team */
+  #margin-profile-team {
+    margin-top: 50px;
+  }
+
+  /* Page Team */
+  .table-information-team {
+    margin-top: 0px;
+  }
+
+  .title-career {
+    margin-top: 30px;
+  }
+}
